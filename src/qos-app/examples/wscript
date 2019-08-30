@@ -1,0 +1,9 @@
+# -*- Mode: python; py-indent-offset: 4; indent-tabs-mode: nil; coding: utf-8; -*-
+
+def build(bld):
+    obj = bld.create_ns3_program('nrel-app-flow-monitor', ['nrel-app', 'point-to-point','internet','network'])
+    obj.source = 'nrel-app-flow-monitor.cc'
+    
+    obj = bld.create_ns3_program('nrel-app-ip6to4', ['nrel-app','internet','network','sixlowpan','lr-wpan','mesh','wifi'])
+    obj.source = 'nrel-app-ip6to4.cc'
+
