@@ -47,7 +47,7 @@ doi: 10.1109/SmartGridComm.2018.8587472
 
 ## License Notice
 
-Copyright (c) 2017 Regents of the University of Colorado
+Copyright (c) 2019 Alliance for Sustainable Energy, LLC
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
